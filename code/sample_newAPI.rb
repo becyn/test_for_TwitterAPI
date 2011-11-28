@@ -34,6 +34,11 @@ search = Twitter.search("becyn -rt", :lang => "ja", :rpp => 1).each do |r|   # g
 #        p r.location
 
 puts "------"
+#####################################################################
+# - readme -                                                        #
+#  you can know all of commands you can use from following command. #
+#####################################################################
+
         p r.methods
 
 # you can also get the tweets with onother syntax like following.
