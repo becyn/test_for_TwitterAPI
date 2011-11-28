@@ -8,6 +8,11 @@ require 'twitter'
 search = Twitter.search("becyn -rt", :lang => "ja", :rpp => 1).each do |r|   # get 5 tweets except RT.
 # search = Twitter.search("becyn", :lang => "ja").each do |r|   # get 15 tweets.
 
+#######################################################
+# - readme -                                          #
+#  you cannot get outputs from the commented out one. #
+#######################################################
+
         p r.created_at
         p r.from_user_id
 #        p r.from_user_id_str
