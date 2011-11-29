@@ -1,0 +1,98 @@
+Script started on Mon Nov 28 17:19:56 2011
+[32mUsing /Users/yukako/.rvm/gems/ruby-1.9.2-p180[m
+/Users/yukako/.zshrc:158: bad assignment
+]0;yukako@yukako:/Users/yukako/Sites/becyn_git/sample[1m[7m%[m[1m[m                                                                               [m[m[m[J[yukako@yukako]~/Sites/becyn_git/sample% [Kscript test.log[15Demacs code/sample_newAPI2.rb[28Dexit                        [24Druby code/sample_newAPI2.rb
+favorited:
+nil
+from_user:
+"becyn"
+from_user_id:
+64663558
+id:
+141299134463348736
+in_reply_to_screen_name:
+nil
+in_reply_to_attrs_id:
+nil
+in_reply_to_user_id:
+nil
+iso_language_code:
+"ja"
+profile_image_url:
+"http://a1.twimg.com/profile_images/1596625346/___normal.jpg"
+retweet_count:
+nil
+retweet:
+nil
+source:
+"&lt;a href=&quot;http://sites.google.com/site/yorufukurou/&quot; rel=&quot;nofollow&quot;&gt;YoruFukurou&lt;/a&gt;"
+text:
+"TwitterAPIのテスト中! ( ﾟ∀ﾟ)o彡 http://t.co/bCnoRZWH Poker Face - Lady GaGa  http://t.co/G2GPt97u http://t.co/cYypZTgf"
+to_user:
+nil
+to_user_id:
+nil
+truncated:
+nil
+favorited?:
+nil
+retweeted?:
+nil
+truncated?:
+nil
+all_urls:
+["http://t.co/bCnoRZWH", "http://t.co/G2GPt97u", "http://t.co/cYypZTgf"]
+expanded_urls:
+nil
+geo:
+nil
+hashtag:
+[]
+media:
+nil
+metadata:
+#<Twitter::Metadata:0x00000101a64878 @attrs={"result_type"=>"recent"}>
+place:
+nil
+urls:
+["http://t.co/bCnoRZWH", "http://t.co/G2GPt97u", "http://t.co/cYypZTgf"]
+user:
+nil
+user_mention:
+[]
+mentions:
+[]
+created at:
+2011-11-28 15:35:13 -0800
+attrs:
+{"created_at"=>"Mon, 28 Nov 2011 23:35:13 +0000", "from_user"=>"becyn", "from_user_id"=>64663558, "from_user_id_str"=>"64663558", "from_user_name"=>"びしんって読みます。べしんでもおｋです。", "geo"=>nil, "id"=>141299134463348736, "id_str"=>"141299134463348736", "iso_language_code"=>"ja", "metadata"=>{"result_type"=>"recent"}, "profile_image_url"=>"http://a1.twimg.com/profile_images/1596625346/___normal.jpg", "source"=>"&lt;a href=&quot;http://sites.google.com/site/yorufukurou/&quot; rel=&quot;nofollow&quot;&gt;YoruFukurou&lt;/a&gt;", "text"=>"TwitterAPIのテスト中! ( ﾟ∀ﾟ)o彡 http://t.co/bCnoRZWH Poker Face - Lady GaGa  http://t.co/G2GPt97u http://t.co/cYypZTgf", "to_user"=>nil, "to_user_id"=>nil, "to_user_id_str"=>nil, "to_user_name"=>nil}
+to_hasu:
+{"created_at"=>"Mon, 28 Nov 2011 23:35:13 +0000", "from_user"=>"becyn", "from_user_id"=>64663558, "from_user_id_str"=>"64663558", "from_user_name"=>"びしんって読みます。べしんでもおｋです。", "geo"=>nil, "id"=>141299134463348736, "id_str"=>"141299134463348736", "iso_language_code"=>"ja", "metadata"=>{"result_type"=>"recent"}, "profile_image_url"=>"http://a1.twimg.com/profile_images/1596625346/___normal.jpg", "source"=>"&lt;a href=&quot;http://sites.google.com/site/yorufukurou/&quot; rel=&quot;nofollow&quot;&gt;YoruFukurou&lt;/a&gt;", "text"=>"TwitterAPIのテスト中! ( ﾟ∀ﾟ)o彡 http://t.co/bCnoRZWH Poker Face - Lady GaGa  http://t.co/G2GPt97u http://t.co/cYypZTgf", "to_user"=>nil, "to_user_id"=>nil, "to_user_id_str"=>nil, "to_user_name"=>nil}
+psych_to_yaml:
+"--- !ruby/object:Twitter::Status\nattrs:\n  created_at: Mon, 28 Nov 2011 23:35:13 +0000\n  from_user: becyn\n  from_user_id: 64663558\n  from_user_id_str: '64663558'\n  from_user_name: びしんって読みます。べしんでもおｋです。\n  geo: !!null \n  id: 141299134463348736\n  id_str: '141299134463348736'\n  iso_language_code: ja\n  metadata:\n    result_type: recent\n  profile_image_url: http://a1.twimg.com/profile_images/1596625346/___normal.jpg\n  source: ! '&lt;a href=&quot;http://sites.google.com/site/yorufukurou/&quot; rel=&quot;nofollow&quot;&gt;YoruFukurou&lt;/a&gt;'\n  text: TwitterAPIのテスト中! ( ﾟ∀ﾟ)o彡 http://t.co/bCnoRZWH Poker Face - Lady GaGa  http://t.co/G2GPt97u\n    http://t.co/cYypZTgf\n  to_user: !!null \n  to_user_id: !!null \n  to_user_id_str: !!null \n  to_user_name: !!null \nurls:\n- http://t.co/bCnoRZWH\n- http://t.co/G2GPt97u\n- http://t.co/cYypZTgf\nall_urls:\n- http://t.co/bCnoRZWH\n- http://t.co/G2GPt97u\n- http://t.co/cYypZTgf\nhashtags: []\nmetadata: !ruby/object:Twitter::Metadata\n  attrs:\n    result_type: recent\nuser_mentions: []\ncreated_at: 2011-11-28 15:35:13.000000000 -08:00\n"
+to_yaml_properties:
+[:@attrs, :@urls, :@all_urls, :@hashtags, :@metadata, :@user_mentions, :@created_at]
+to_yaml:
+"--- !ruby/object:Twitter::Status\nattrs:\n  created_at: Mon, 28 Nov 2011 23:35:13 +0000\n  from_user: becyn\n  from_user_id: 64663558\n  from_user_id_str: '64663558'\n  from_user_name: びしんって読みます。べしんでもおｋです。\n  geo: !!null \n  id: 141299134463348736\n  id_str: '141299134463348736'\n  iso_language_code: ja\n  metadata:\n    result_type: recent\n  profile_image_url: http://a1.twimg.com/profile_images/1596625346/___normal.jpg\n  source: ! '&lt;a href=&quot;http://sites.google.com/site/yorufukurou/&quot; rel=&quot;nofollow&quot;&gt;YoruFukurou&lt;/a&gt;'\n  text: TwitterAPIのテスト中! ( ﾟ∀ﾟ)o彡 http://t.co/bCnoRZWH Poker Face - Lady GaGa  http://t.co/G2GPt97u\n    http://t.co/cYypZTgf\n  to_user: !!null \n  to_user_id: !!null \n  to_user_id_str: !!null \n  to_user_name: !!null \nurls:\n- http://t.co/bCnoRZWH\n- http://t.co/G2GPt97u\n- http://t.co/cYypZTgf\nall_urls:\n- http://t.co/bCnoRZWH\n- http://t.co/G2GPt97u\n- http://t.co/cYypZTgf\nhashtags: []\nmetadata: !ruby/object:Twitter::Metadata\n  attrs:\n    result_type: recent\nuser_mentions: []\ncreated_at: 2011-11-28 15:35:13.000000000 -08:00\n"
+to_json:
+"\"#<Twitter::Status:0x00000101a668f8>\""
+nill?:
+false
+hash:
+-1533026807169059588
+class:
+Twitter::Status
+sigleton_class:
+#<Class:#<Twitter::Status:0x00000101a668f8>>
+clone:
+#<Twitter::Status:0x00000101a403d8 @attrs={"created_at"=>"Mon, 28 Nov 2011 23:35:13 +0000", "from_user"=>"becyn", "from_user_id"=>64663558, "from_user_id_str"=>"64663558", "from_user_name"=>"びしんって読みます。べしんでもおｋです。", "geo"=>nil, "id"=>141299134463348736, "id_str"=>"141299134463348736", "iso_language_code"=>"ja", "metadata"=>{"result_type"=>"recent"}, "profile_image_url"=>"http://a1.twimg.com/profile_images/1596625346/___normal.jpg", "source"=>"&lt;a href=&quot;http://sites.google.com/site/yorufukurou/&quot; rel=&quot;nofollow&quot;&gt;YoruFukurou&lt;/a&gt;", "text"=>"TwitterAPIのテスト中! ( ﾟ∀ﾟ)o彡 http://t.co/bCnoRZWH Poker Face - Lady GaGa  http://t.co/G2GPt97u http://t.co/cYypZTgf", "to_user"=>nil, "to_user_id"=>nil, "to_user_id_str"=>nil, "to_user_name"=>nil}, @urls=["http://t.co/bCnoRZWH", "http://t.co/G2GPt97u", "http://t.co/cYypZTgf"], @all_urls=["http://t.co/bCnoRZWH", "http://t.co/G2GPt97u", "http://t.co/cYypZTgf"], @hashtags=[], @metadata=#<Twitter::Metadata:0x00000101a64878 @attrs={"result_type"=>"recent"}>, @user_mentions=[], @created_at=2011-11-28 15:35:13 -0800>
+dup:
+#<Twitter::Status:0x00000101a3f730 @attrs={"created_at"=>"Mon, 28 Nov 2011 23:35:13 +0000", "from_user"=>"becyn", "from_user_id"=>64663558, "from_user_id_str"=>"64663558", "from_user_name"=>"びしんって読みます。べしんでもおｋです。", "geo"=>nil, "id"=>141299134463348736, "id_str"=>"141299134463348736", "iso_language_code"=>"ja", "metadata"=>{"result_type"=>"recent"}, "profile_image_url"=>"http://a1.twimg.com/profile_images/1596625346/___normal.jpg", "source"=>"&lt;a href=&quot;http://sites.google.com/site/yorufukurou/&quot; rel=&quot;nofollow&quot;&gt;YoruFukurou&lt;/a&gt;", "text"=>"TwitterAPIのテスト中! ( ﾟ∀ﾟ)o彡 http://t.co/bCnoRZWH Poker Face - Lady GaGa  http://t.co/G2GPt97u http://t.co/cYypZTgf", "to_user"=>nil, "to_user_id"=>nil, "to_user_id_str"=>nil, "to_user_name"=>nil}, @urls=["http://t.co/bCnoRZWH", "http://t.co/G2GPt97u", "http://t.co/cYypZTgf"], @all_urls=["http://t.co/bCnoRZWH", "http://t.co/G2GPt97u", "http://t.co/cYypZTgf"], @hashtags=[], @metadata=#<Twitter::Metadata:0x00000101a64878 @attrs={"result_type"=>"recent"}>, @user_mentions=[], @created_at=2011-11-28 15:35:13 -0800>
+initialize_dup:
+code/sample_newAPI2.rb:112:in `initialize_dup': wrong number of arguments(0 for 1) (ArgumentError)
+	from code/sample_newAPI2.rb:112:in `block in <main>'
+	from code/sample_newAPI2.rb:8:in `each'
+	from code/sample_newAPI2.rb:8:in `<main>'
+]0;yukako@yukako:/Users/yukako/Sites/becyn_git/sample[1m[7m%[m[1m[m                                                                               [m[m[m[J[yukako@yukako]~/Sites/becyn_git/sample% [Kruby code/sample_newAPI2.rb[27Dscript test.log            [12D[15Demacs code/sample_newAPI2.rb[28Dexit                        [24D
+
+Script done on Mon Nov 28 17:20:14 2011
